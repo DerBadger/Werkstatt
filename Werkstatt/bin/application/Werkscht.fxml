@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="663.0" prefWidth="733.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.WerkschtController">
+   <children>
+      <TextField fx:id="txtf_employeeID" layoutX="35.0" layoutY="76.0" promptText="Employee ID" />
+      <TextField fx:id="txtf_newEmail" layoutX="236.0" layoutY="76.0" promptText="New Email" />
+      <TextField fx:id="txtf_vName" layoutX="160.0" layoutY="145.0" promptText="Vorname" />
+      <TextField fx:id="txtf_nName" layoutX="160.0" layoutY="202.0" promptText="Nachname" />
+      <TextField fx:id="txtf_email" layoutX="160.0" layoutY="265.0" promptText="Email" />
+      <Label fx:id="lab_emplyeeID" layoutX="35.0" layoutY="53.0" text="Employee ID" />
+      <Label fx:id="lab_newEmail" layoutX="236.0" layoutY="53.0" text="New Email" />
+      <Label fx:id="lab_vName" layoutX="35.0" layoutY="152.0" text="Vorname" />
+      <Label fx:id="lab_nName" layoutX="35.0" layoutY="209.0" text="Nachname" />
+      <Label fx:id="lab_email" layoutX="35.0" layoutY="272.0" text="Email" />
+      <TextArea fx:id="txta_info" layoutX="35.0" layoutY="350.0" prefHeight="261.0" prefWidth="552.0" promptText="Result Console" />
+      <Label fx:id="lab_rescon" layoutX="35.0" layoutY="323.0" text="Result Console" />
+      <Button fx:id="btn_search" layoutX="417.0" layoutY="74.0" mnemonicParsing="false" onAction="#funcSearch" text="Search" />
+      <Button fx:id="btn_delete" layoutX="417.0" layoutY="122.0" mnemonicParsing="false" text="Delete" />
+      <Button fx:id="btn_update" layoutX="417.0" layoutY="170.0" mnemonicParsing="false" text="Update" />
+      <Button fx:id="btn_add" layoutX="339.0" layoutY="266.0" mnemonicParsing="false" text="Add" />
+      
+   </children>
+</AnchorPane>
